@@ -1,0 +1,9 @@
+---
+layout: post
+title:  "Gianadda 1.0 released"
+date:   2015-09-18 23:47:31
+categories: gianadda update
+---
+Gianadda 1.0 was finally released!
+
+[gianadda](https://github.com/robbyn/gianadda/releases)
