@@ -1,13 +1,13 @@
 ---
 layout: default
 title: Gianadda
-permalink: /Home/
+permalink: /Home.html
 ---
 Gianadda
 ========
 
 A static gallery generator for hikers and bikers
 
-* [Usage](/Usage/)
-* [Generated files](/GeneratedFiles/)
-* [Themes](/Themes/)
+* [Usage](/Usage.html)
+* [Generated files](/GeneratedFiles.html)
+* [Themes](/Themes.html)

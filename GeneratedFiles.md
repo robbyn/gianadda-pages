@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Generated files
-permalink: /GeneratedFiles/
+permalink: /GeneratedFiles.html
 ---
 # Generated files
 

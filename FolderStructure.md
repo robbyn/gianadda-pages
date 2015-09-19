@@ -1,7 +1,7 @@
 ---
 layout: default
 title: The `$folder` object
-permalink: /FolderStructure/
+permalink: /FolderStructure.html
 ---
 # The `$folder` object
 
@@ -22,5 +22,5 @@ The `$folder` object gives access to information related to the current folder.
 
 ## Folder methods
 
-* `getPicture(name)`: returns the [picture](/PictureStructure/) with the given name, or `null` if none is found,
+* `getPicture(name)`: returns the [picture](/PictureStructure.html) with the given name, or `null` if none is found,
 * `getFolder(name)`: returns the subfolder with the given name, or `null` if none is found

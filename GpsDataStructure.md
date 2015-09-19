@@ -1,7 +1,7 @@
 ---
 layout: default
 title: The GPS Data object
-permalink: /GpsDataStructure/
+permalink: /GpsDataStructure.html
 ---
 # The GPS Data object
 

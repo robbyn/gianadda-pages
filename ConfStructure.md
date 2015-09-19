@@ -1,7 +1,7 @@
 ---
 layout: default
 title: The $conf object
-permalink: /ConfStructure/
+permalink: /ConfStructure.html
 ---
 # The $conf object
 

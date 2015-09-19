@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Usage
-permalink: /Usage/
+permalink: /Usage.html
 ---
 # Usage
 
