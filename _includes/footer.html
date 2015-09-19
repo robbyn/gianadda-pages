@@ -1,29 +1,19 @@
 <footer class="site-footer">
     <div class="wrapper">
         <h2 class="footer-heading">{{ site.title }}</h2>
+        <p class="text">{{ site.description }}</p>
         <div class="footer-col-wrapper">
             <div class="footer-col footer-col-1">{{ site.copyright }},
                 <a href="{{ site.author_url }}">{{ site.author }}</a>
             </div>
             <div class="footer-col footer-col-2">
                 <ul class="social-media-list">
-                   <li>
-                        <a target="_blank" class="icon-linkedin username" href="https://www.linkedin.com/in/mauriceperry">Linked in</a>
-                    </li>
+                    {% for soc in site.social %}
                     <li>
-                        <a target="_blank" class="icon-gplus username" href="https://plus.google.com/105003383502499251992/">Google+</a>
+                        <a class="icon-{{ soc.name }}" href="{{ soc.url }}">{{ soc.text }}</a>
                     </li>
-                    <li>
-                        <a target="_blank" class="icon-github username" href="https://github.com/robbyn">Githup</a>
-                    </li>
-                    <li>
-                        <a target="_blank" class="icon-stackoverflow username" href="http://stackoverflow.com/users/72673/maurice-perry">StackOverflow</a>
-                    </li>
+                    {% endfor %}
                 </ul>
-            </div>
-
-            <div class="footer-col footer-col-3">
-                <p class="text">{{ site.description }}</p>
             </div>
         </div>
     </div>
