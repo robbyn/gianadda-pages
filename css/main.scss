@@ -48,3 +48,7 @@ $on-laptop:        800px;
         "layout",
         "syntax-highlighting"
 ;
+
+a:hover:before {
+    text-decoration: none;
+}
