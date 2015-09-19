@@ -12,15 +12,15 @@ markdown: kramdown
 analytics: UA-55206549-4
 
 social:
--   name: linkedin
+-   icon: linkedin
     text: Linked in
     url: "https://www.linkedin.com/in/mauriceperry"
--   name: gplus
+-   icon: gplus
     text: Google+
     url: "https://plus.google.com/105003383502499251992/"
--   name: github
+-   icon: github
     text: Githup
     url: "https://github.com/robbyn"
--   name: stackoverflow
+-   icon: stackoverflow
     text: StackOverflow
     url: "http://stackoverflow.com/users/72673/maurice-perry"
