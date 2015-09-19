@@ -1,0 +1,10 @@
+# Site settings
+title: Gianadda
+email: info@perry.productions
+description: > # A gallery generator for hikers.
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://gianadda.perry.productions" # the base hostname & protocol for your site
+github_username:  robbyn
+
+# Build settings
+markdown: kramdown
