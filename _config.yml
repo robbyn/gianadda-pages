@@ -3,7 +3,7 @@ title: Gianadda
 copyright: Copyright © 2013-2015
 author: Perry Productions
 author_url: https://www.perry.productions/
-description: > # A gallery generator for hikers.
+description: A static gallery generator for hikers and bikers
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://gianadda.perry.productions" # the base hostname & protocol for your site
 github_username:  robbyn
