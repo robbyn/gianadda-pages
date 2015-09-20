@@ -43,8 +43,8 @@ gianadda [-?|-h|--help] [-v|--verbose] [-q|--quiet] [--debug]
     </dd>
     <dt>-s|--sync</dt>
     <dd>
-        <p>Synchronize the given gallery to reflect changes in the content of the
-        gallery directory:</p>
+        <p>Synchronize the given gallery to reflect changes in the content of
+        the gallery directory:</p>
         <ul>
           <li>create new folder when new directories are found</li>
           <li>create new pictures when new image files are found, and generate
@@ -52,8 +52,8 @@ gianadda [-?|-h|--help] [-v|--verbose] [-q|--quiet] [--debug]
           <li>update picture info in the catalog when image files are changed,
                 and regenerate thumbnails and preview files.</li>
         </ul>
-        <p>NOTE: Unless the --delete is used, he folders and pictures that no longer
-                exist in the directory structure are kept in the catalog.</p>
+        <p>NOTE: Unless the --delete flag is used, he folders and pictures that
+        no longer exist in the directory structure are kept in the catalog.</p>
     </dd>
     <dt>-d|--delete</dt>
     <dd>
@@ -67,7 +67,7 @@ gianadda [-?|-h|--help] [-v|--verbose] [-q|--quiet] [--debug]
     </dd>
     <dt>--simplify</dt>
     <dd>
-        Simplify tracks using a Douglas-Peucker algorithm.
+        Simplify tracks using a Douglas-Peucker<sup>3</sup> algorithm.
     </dd>
     <dt>--tolerance &lt;tolerance&gt;</dt>
     <dd>
@@ -95,7 +95,8 @@ gianadda [-?|-h|--help] [-v|--verbose] [-q|--quiet] [--debug]
     </dd>
     <dt>--debug</dt>
     <dd>
-        Display ALL messages, including debug messages. There can be quiet a lot.
+        Display ALL messages, including debug messages. There can be quiet a
+        lot.
     </dd>
 </dl>
 
@@ -104,3 +105,5 @@ gianadda [-?|-h|--help] [-v|--verbose] [-q|--quiet] [--debug]
 <sup>1</sup> [Google Static Maps API](https://developers.google.com/maps/documentation/static-maps/)
 
 <sup>2</sup> [The Google Maps Elevation API](https://developers.google.com/maps/documentation/elevation/intro)
+
+<sup>3</sup> [Douglas-Peucker simplification algorithm](https://en.wikipedia.org/wiki/Ramer%E2%80%93Douglas%E2%80%93Peucker_algorithm)
