@@ -15,5 +15,5 @@ The following properties are used by Gianadda:
 * `thumb-size`: size of the thumbnails. default: `150,100`
 * `pic-name-pattern`: regexp to filter picture image names. default: `^[^.].*[.](jpg|jpeg)$`
 * `dir-name-pattern`: regexp to filter folder names. default: `^[^._].*$`
-* `template-name-pattern`: regexp to filter [template](/ThemeTemplates.html) names. default: `^[^.].*[.](html|js|css)$`
+* `template-name-pattern`: regexp to filter [template](/ThemeTemplates.html) names. default: `^[^.].*[.](html|css|txt|xml|rss)$`
 * `preview-template`: name of the preview [template](/ThemeTemplates.html). default: `preview.html`
