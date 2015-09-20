@@ -15,13 +15,12 @@ Here are some of it's features:
 * Highly automatable
 * Customizable with themes
 * Easy to use (place you photos in a folder, run Gianadda, and your gallery is
-  ready to be uploaded)
-* Support of geographic data (GPX tracks, Photo geolocation, support for
-  Google maps)
+  ready)
+* Support of geographic data (GPX tracks, Photo geolocation, Google maps)
 * Generates static pages, meaning that the gallery can be hosted anywhere
 * Another benefit of the galleries being static is that pages are fast to load
-* Share buttons for the major social networks (facebook, twitter, pinterest,
-  etc...)
+* Share buttons for the major social networks (facebook, twitter, google+,
+  pinterest, etc...)
 * Free and Open-source (GPL V3)
 
 To see an example of a gallery generated with the default theme, you can go to
