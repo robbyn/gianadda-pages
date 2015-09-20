@@ -20,6 +20,8 @@ The following Gianadda objects are accessible from within a template:
 
 * `$base`: a relative path to the root of the website. Very handy to build URLs to site-level files such as
 CSS or JavaScript files.
+* `$outputFile`: output file name and path
+* `$outputDir`: output directory where the output file is being written,
 * [$conf](/Themes/ConfStructure.html): an object giving access to the settings,
 * [$folder](/Themes/FolderStructure.html): the current folder (for a site-level template, this the root folder),
 * [$pic](/Themes/PictureStructure.html): the picture being processed (only available to the preview template)
