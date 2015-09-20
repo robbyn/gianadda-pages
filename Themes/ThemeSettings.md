@@ -17,3 +17,7 @@ The following properties are used by Gianadda:
 * `dir-name-pattern`: regexp to filter folder names. default: `^[^._].*$`
 * `template-name-pattern`: regexp to filter [template](ThemeTemplates.html) names. default: `^[^.].*[.](html|css|txt|xml|rss)$`
 * `preview-template`: name of the preview [template](ThemeTemplates.html). default: `preview.html`
+* `track-template`:  name of the track template [template](ThemeTemplates.html). default: `track.html`
+* `folder-meta-name`:  name of the file containing the folder's metadata. default: `folder-meta.xml`
+* `simplify`: `true` if the tracks are to be simplified with the Douglas-Peucker algorithm. default: `true`
+* `tolerance`: tolerance for the Douglas-Peucker algorithm, in meters. default: `5`

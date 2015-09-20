@@ -9,6 +9,8 @@ permalink: /Usage.html
 gianadda [-?|-h|--help] [-v|--verbose] [-q|--quiet] [--debug]
     [-s|--sync] [-f|--force-html]
     [(-c|--create) <theme-name>] [(-t|--change-theme) <theme-name>]
+    [--tolerance <tolerance>] [--google-browser-key <key>]
+    [--google-server-key <key>]
     <gallery-directory>
 ```
 
@@ -27,6 +29,11 @@ Display this help text.
 <dt>-t|--change-theme &lt;theme-name&gt;</dt>
 <dd>
     Change the theme of the gallery in the given directory.
+    When used, -s and -f are implied.
+</dd>
+<dt>-c|--create &lt;theme-name&gt;</dt>
+<dd>
+    Create a new gallery using the given theme, in the given directory.
     When used, -s and -f are implied.
 </dd>
 <dt>-s|--sync</dt>
