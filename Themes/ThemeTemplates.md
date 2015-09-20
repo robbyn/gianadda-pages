@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Theme templates
-permalink: /ThemeTemplates.html
+permalink: /Themes/ThemeTemplates.html
 ---
 # Theme templates
 
@@ -20,8 +20,8 @@ The following Gianadda objects are accessible from within a template:
 
 * `$base`: a relative path to the root of the website. Very handy to build URLs to site-level files such as
 CSS or JavaScript files.
-* [$conf](/ConfStructure.html): an object giving access to the settings,
-* [$folder](/FolderStructure.html): the current folder (for a site-level template, this the root folder),
-* [$pic](/PictureStructure.html): the picture being processed (only available to the preview template)
+* [$conf](/Themes/ConfStructure.html): an object giving access to the settings,
+* [$folder](/Themes/FolderStructure.html): the current folder (for a site-level template, this the root folder),
+* [$pic](/Themes/PictureStructure.html): the picture being processed (only available to the preview template)
 
 To see examples of templates, you can have a look a the [source files for the default theme](https://github.com/robbyn/gianadda/tree/master/res/themes/default), most notably [folder/index.html](https://github.com/robbyn/gianadda/blob/master/res/themes/default/folder/index.html).

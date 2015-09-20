@@ -1,9 +1,9 @@
 ---
 layout: default
-title: The `$pic` object
-permalink: /PictureStructure.html
+title: The $pic object
+permalink: /Themes/PictureStructure.html
 ---
-# The `$pic` object
+# The $pic object
 
 The `$pic` object gives access to the information relative to a picture.
 
@@ -19,4 +19,4 @@ The `$pic` object gives access to the information relative to a picture.
 * `width`: image width,
 * `height`: image height,
 * `path`: path relatively to the root folder,
-* `gpsData`: [GPS data](/GpsDataStructure.html) if found in the EXIF information, or null if not,
+* `gpsData`: [GPS data](GpsDataStructure.html) if found in the EXIF information, or null if not,

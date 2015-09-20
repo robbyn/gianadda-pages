@@ -28,7 +28,7 @@ social:
 nav:
 -   title: Usage
     url: "/Usage.html"
+-   title: Themes
+    url: "/Themes/"
 -   title: Generated files
     url: "/GeneratedFiles.html"
--   title: Themes
-    url: "/Themes.html"

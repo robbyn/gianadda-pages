@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Theme
-permalink: /Themes.html
+permalink: /Themes/
 ---
 # Themes
 
@@ -38,5 +38,5 @@ It contains the following elements:
 
 It's not a bad idea to also include a README file.
 
-* [Settings](/ThemeSettings.html)
-* [Templates](/ThemeTemplates.html)
+* [Settings](ThemeSettings.html)
+* [Templates](ThemeTemplates.html)
