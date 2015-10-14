@@ -28,4 +28,4 @@ To see an example of a gallery generated with the default theme, you can go to
 
 * [Usage](/Usage.html)
 * [Generated files](/GeneratedFiles.html)
-* [Themes](/Themes.html)
+* [Themes](/Themes/)
